@@ -41,10 +41,10 @@ require("lazy").setup({
 		{ import = "plugins.treesitter" },
 		{ import = "plugins.autopairs" },
 		{ import = "plugins.lualine" },
-		{ import = "plugins.bufferline" },
 		{ import = "plugins.lazygit" },
 		{ import = "plugins.conform" },
 		{ import = "plugins.surround" },
 		{ import = "plugins.hellshake-yano" },
+		{ import = "plugins.blankline" },
 	},
 })
