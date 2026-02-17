@@ -46,5 +46,6 @@ require("lazy").setup({
     { import = "plugins.surround" },
     { import = "plugins.hellshake-yano" },
     { import = "plugins.hlchunk" },
+    { import = "plugins.which_key" },
   },
 })
