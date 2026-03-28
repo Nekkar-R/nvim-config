@@ -38,13 +38,13 @@ require("lazy").setup({
 		-- { import = "plugins.lualine" }, -- 下に出てくるかっこいいやつ.
 		-- { import = "plugins.bufferline" }, -- buffer表示するやーつ.
 		-- { import = "plugins.hlchunk" }, -- インデント見やすくするやつ.
-		-- { import = "plugins.toggleterm" }, -- ポップアップウィンドウ的な.
+		{ import = "plugins.toggleterm" }, -- ポップアップウィンドウ的な.
 
 		-- 補完系.
 		-- { import = "plugins.lsp" }, -- lsp関連のやつ 調整中 誰か助けて().
 		-- { import = "plugins.cmp" }, -- cmp 要するに補完.
 		-- { import = "plugins.autopairs" }, -- 括弧とかの補完.
-		-- { import = "plugins.surround" }, -- 色々括弧とかをいじれるやつ.
+		{ import = "plugins.surround" }, -- 色々括弧とかをいじれるやつ.
 		-- { import = "plugins.ts-autotag" }, -- タグを補完してくれるやつ.
 
 		-- 便利系.
@@ -59,5 +59,6 @@ require("lazy").setup({
 		{ import = "plugins.hellshake-yano" }, -- 移動が楽になるやつ.
 		{ import = "plugins.cord-nvim" }, -- Discordにいじってるファイル出るやつ.
 		{ import = "plugins.render-markdown" }, -- markdownの編集がやりやすくなるやつ.
+		{ import = "plugins.youtuvim" },
 	},
 })
