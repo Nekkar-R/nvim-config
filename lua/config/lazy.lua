@@ -56,9 +56,10 @@ require("lazy").setup({
 		-- { import = "plugins.which_key" }, -- 右下に出てくるショートカットのヒント.
 
 		-- お遊び.
-		{ import = "plugins.hellshake-yano" }, -- 移動が楽になるやつ.
+		-- { import = "plugins.hellshake-yano" }, -- 移動が楽になるやつ.
 		{ import = "plugins.cord-nvim" }, -- Discordにいじってるファイル出るやつ.
 		{ import = "plugins.render-markdown" }, -- markdownの編集がやりやすくなるやつ.
 		-- { import = "plugins.youtuvim" }, -- neovim上でYoutubeが再生できる 尚音ズレと多分win非対応 完全にネタ yt-dlp, ffmpeg, python必要.
+		-- { import = "plugins.nvim-docx" }, -- nvimでdocxが編集できるようになるらしいやつ.
 	},
 })
