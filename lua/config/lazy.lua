@@ -32,8 +32,8 @@ require("lazy").setup({
 		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
 
 		-- 見た目系.
-		-- { import = "plugins.catppuccin" }, -- catppuccin themes.
-		{ import = "plugins.tawny" }, -- tawny themes.
+		{ import = "plugins.catppuccin" }, -- catppuccin themes.
+		-- { import = "plugins.tawny" }, -- tawny themes.
 		{ import = "plugins.toggleterm" }, -- ポップアップウィンドウ的な.
 		{ import = "plugins.snacks" },
 
