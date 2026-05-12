@@ -6,3 +6,5 @@ local opts = { noremap = true, silent = true }
 -- map("n", "<S-h>", "<Cmd>BufferLineCyclePrev<CR>", opts)
 -- -- Close buffer
 -- map("n", "<leader>bd", "<Cmd>bdelete<CR>", opts)
+
+map("i", "jk", "<Esc>", { noremap = true })
