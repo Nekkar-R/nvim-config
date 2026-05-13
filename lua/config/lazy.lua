@@ -28,28 +28,37 @@ vim.opt.rtp:prepend(lazypath)
 -- pluginの読み込み.
 require("lazy").setup({
 	spec = {
-		-- 全部セット.
+		-- LazyVim.
 		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
 
+		-- =====================================
 		-- 見た目系.
+		-- =====================================
 		{ import = "plugins.catppuccin" }, -- catppuccin themes.
 		-- { import = "plugins.tawny" }, -- tawny themes.
-		{ import = "plugins.toggleterm" }, -- ポップアップウィンドウ的な.
-		{ import = "plugins.snacks" },
+		{ import = "plugins.snacks" }, -- homeのロゴ変更のため.
 
+		-- =====================================
 		-- 補完系.
+		-- =====================================
 		{ import = "plugins.surround" }, -- 色々括弧とかをいじれるやつ.
 
+		-- =====================================
 		-- 便利系.
+		-- =====================================
 		{ import = "plugins.oil" }, -- ファイルビューア.
 		{ import = "plugins.vimtex" }, -- tex
-
-		-- お遊び.
-		-- { import = "plugins.hellshake-yano" }, -- 移動が楽になるやつ.
-		{ import = "plugins.cord-nvim" }, -- Discordにいじってるファイル出るやつ.
 		{ import = "plugins.render-markdown" }, -- markdownの編集がやりやすくなるやつ.
+
+		-- =====================================
+		-- お遊び.
+		-- =====================================
+		{ import = "plugins.cord-nvim" }, -- Discordにいじってるファイル出るやつ.
 		-- { import = "plugins.youtuvim" }, -- neovim上でYoutubeが再生できる 尚音ズレと多分win非対応 完全にネタ yt-dlp, ffmpeg, python必要.
 
+		-- =====================================
+		-- Disable
+		-- =====================================
 		{ import = "plugins.disabled" },
 	},
 })
