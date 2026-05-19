@@ -28,7 +28,9 @@ vim.opt.rtp:prepend(lazypath)
 -- pluginの読み込み.
 require("lazy").setup({
 	spec = {
+		-- =====================================
 		-- LazyVim.
+		-- =====================================
 		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
 
 		-- =====================================
