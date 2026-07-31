@@ -36,10 +36,10 @@ require("lazy").setup({
 		----------------------------------------
 		-- 見た目系.
 		----------------------------------------
-		-- { import = "plugins.catppuccin" }, -- catppuccin themes.
+		{ import = "plugins.catppuccin" }, -- catppuccin themes.
 		-- { import = "plugins.tawny" }, -- tawny themes.
+		-- { import = "plugins.yash" }, -- yash thmes.
 		{ import = "plugins.snacks" }, -- homeのロゴ変更のため.
-		{ import = "plugins.yash" }, -- yash thmes.
 
 		----------------------------------------
 		-- 補完系.
@@ -51,7 +51,7 @@ require("lazy").setup({
 		----------------------------------------
 		{ import = "plugins.oil" }, -- ファイルビューア.
 		{ import = "plugins.vimtex" }, -- tex
-		{ import = "plugins.render-markdown" }, -- markdownの編集がやりやすくなるやつ.
+		-- { import = "plugins.render-markdown" }, -- markdownの編集がやりやすくなるやつ.
 
 		----------------------------------------
 		-- お遊び.
