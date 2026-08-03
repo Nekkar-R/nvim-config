@@ -58,7 +58,7 @@ require("lazy").setup({
 		----------------------------------------
 		{ import = "plugins.cord-nvim" }, -- Discordにいじってるファイル出るやつ.
 		-- { import = "plugins.youtuvim" }, -- neovim上でYoutubeが再生できる 尚音ズレと多分win非対応 完全にネタ yt-dlp, ffmpeg, python必要.
-		{ import = "plugins.tobira" },
+		-- { import = "plugins.tobira" }, -- コマンドのサジェスト.
 
 		----------------------------------------
 		-- Disable
