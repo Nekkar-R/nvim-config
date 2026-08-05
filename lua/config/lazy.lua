@@ -51,7 +51,7 @@ require("lazy").setup({
 		----------------------------------------
 		{ import = "plugins.oil" }, -- ファイルビューア.
 		{ import = "plugins.vimtex" }, -- tex
-		-- { import = "plugins.render-markdown" }, -- markdownの編集がやりやすくなるやつ.
+		{ import = "plugins.render-markdown" }, -- markdownの編集がやりやすくなるやつ.
 
 		----------------------------------------
 		-- お遊び.
