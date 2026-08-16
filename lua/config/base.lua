@@ -1,3 +1,16 @@
+vim.g.clipboard = {
+  name = "win32yank",
+  copy = {
+    ["+"] = "win32yank.exe -i --crlf",
+    ["*"] = "win32yank.exe -i --crlf",
+  },
+  paste = {
+    ["+"] = "win32yank.exe -o --lf",
+    ["*"] = "win32yank.exe -o --lf",
+  },
+  cache_enabled = 0,
+}
+
 -- quoted from https://github.com/watasuke102/dotfiles/blob/31cc30cb604493d14c5f086d8dd252504c0e2dcf/.config/nvim/lua/base.lua.
 
 vim.opt["clipboard"] = "unnamedplus"
@@ -12,7 +25,6 @@ vim.opt.number = true
 vim.opt.rnu = true
 vim.opt.swapfile = false
 vim.opt.mouse = ""
-vim.opt.whichwrap = "b,s,h,l,<,>,[,]"
 vim.opt.backspace = "indent,eol,start"
 
 vim.opt.smarttab = true
@@ -31,8 +43,8 @@ vim.opt.hlsearch = true
 vim.opt.smartcase = true
 
 vim.opt.completeopt = {
-	"fuzzy",
-	"popup",
-	"menuone", -- show menu even if only one candidate
-	"noinsert",
+  "fuzzy",
+  "popup",
+  "menuone", -- show menu even if only one candidate
+  "noinsert",
 }
